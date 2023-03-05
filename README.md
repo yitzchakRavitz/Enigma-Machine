@@ -1,1 +1,4 @@
 # Enigma-Machine
+This program simulates the main encryption and decryption operation of the "Enigma Machine", the form of encryption and decryption is identical to the form used by the original machine.
+
+When you run the software at the top there are three "rotors" in order to send an encrypted message you need to select an initial state of the rotors, every time you type a message in "input" the left rotor will go up by one, every time the left rotor completes a turn (after it reaches 26) the middle rotor will go up by One and every time the device completes a rotation the right rotor will go up by one, the "output" displays the encrypted message that can be sent, whoever receives the message has to change the rotors to the position that the sending party started writing the message, then type the encrypted message he received and the output will display the original message .
